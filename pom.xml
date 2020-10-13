@@ -32,10 +32,6 @@
             <groupId>org.hzero.starter</groupId>
             <artifactId>hzero-starter-hitoa</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.hzero.boot</groupId>
-            <artifactId>hzero-boot-platform</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -84,6 +80,10 @@
             <groupId>io.codearte.props2yaml</groupId>
             <artifactId>props2yaml</artifactId>
             <version>0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
         </dependency>
 
         <!-- register and config -->
